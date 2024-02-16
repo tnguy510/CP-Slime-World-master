@@ -54,7 +54,12 @@ class Overworld extends Phaser.Scene {
             collides: true
         })
 
+        treeLayer.setCollisionByProperty({
+            collides: true
+        })
+
         this.physics.add.collider(this.slime, terrainLayer)
+        this.physics.add.collider(this.slime, treeLayer)
 
         // input
         this.cursors = this.input.keyboard.createCursorKeys()

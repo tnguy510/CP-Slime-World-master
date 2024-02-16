@@ -1,6 +1,6 @@
 // Exercise 04: Slime World
 // Name: Trish Nguyen
-// Date: 11/17/2023
+// Date: 2/16/2024
 
 let config = {
     type: Phaser.AUTO,
